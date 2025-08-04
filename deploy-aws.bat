@@ -28,7 +28,7 @@ if not exist ".env" (
 echo Installing dependencies...
 npm install
 
-echo.
+echo..
 echo Starting AWS deployment...
 echo.
 
