@@ -11,6 +11,7 @@ A professional, responsive website for fitness influencer and trainer Arvind Mad
 - **Google Maps Integration**: Embedded map showing the gym location
 - **Performance Optimized**: Fast loading with optimized images and code
 - **SEO Friendly**: Proper meta tags and semantic HTML structure
+- **AWS Ready**: Complete deployment setup for AWS S3 + CloudFront
 
 ## 📱 Social Media Links
 
@@ -31,7 +32,7 @@ Rajura, Maharashtra 442905
 ### Local Development
 
 1. **Clone or download the project files**
-2. **Install dependencies** (optional):
+2. **Install dependencies**:
    ```bash
    npm install
    ```
@@ -45,17 +46,35 @@ Rajura, Maharashtra 442905
 
 4. **Open in browser**: `http://localhost:3000`
 
+### AWS Deployment
+
+For production deployment to AWS S3 + CloudFront:
+
+1. **Follow the complete guide**: [AWS-DEPLOYMENT-GUIDE.md](./AWS-DEPLOYMENT-GUIDE.md)
+2. **Quick deployment**:
+   ```bash
+   # Set up AWS credentials in .env file
+   # Run deployment
+   npm run deploy
+   # or
+   node aws-deploy.js
+   ```
+
 ## 📁 Project Structure
 
 ```
 arvind-madavi-fitness/
-├── index.html          # Main HTML file
-├── styles.css          # CSS styles
-├── script.js           # JavaScript functionality
-├── package.json        # Project configuration
-├── README.md           # This file
-├── IMG_8094.JPG        # Arvind's profile photo
-└── 1000172021.jpg      # Logo image
+├── index.html              # Main HTML file
+├── styles.css              # CSS styles
+├── script.js               # JavaScript functionality
+├── package.json            # Project configuration
+├── README.md               # This file
+├── aws-deploy.js           # AWS deployment script
+├── deploy-aws.bat          # Windows deployment script
+├── AWS-DEPLOYMENT-GUIDE.md # Complete AWS deployment guide
+├── env-template.txt        # Environment variables template
+├── IMG_8094.JPG            # Arvind's profile photo
+└── 1000172021.jpg          # Logo image
 ```
 
 ## 🛠️ Technologies Used
@@ -66,6 +85,7 @@ arvind-madavi-fitness/
 - **Font Awesome**: Icons
 - **Google Fonts**: Typography (Poppins)
 - **Responsive Design**: Mobile-first approach
+- **AWS SDK**: Cloud deployment automation
 
 ## 📋 Features Breakdown
 
@@ -136,6 +156,36 @@ The website uses a modern color scheme:
 - Lazy loading for images
 - Debounced scroll events
 - Smooth animations with CSS transforms
+- AWS CloudFront CDN ready
+
+## 🚀 Deployment Options
+
+### Local Development
+```bash
+npm start
+```
+
+### AWS S3 + CloudFront (Recommended)
+```bash
+npm run deploy
+```
+
+### Manual AWS Deployment
+```bash
+node aws-deploy.js
+```
+
+## 💰 AWS Cost Estimation
+
+### Free Tier (First 12 Months)
+- **S3**: 5GB storage, 20,000 GET requests/month
+- **CloudFront**: 1TB data transfer/month
+- **Total**: ~$0/month
+
+### After Free Tier
+- **S3**: ~$0.023/GB/month
+- **CloudFront**: ~$0.085/GB
+- **Total**: ~$1-5/month for typical usage
 
 ## 📞 Contact Information
 

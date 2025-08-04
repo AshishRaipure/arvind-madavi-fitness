@@ -5,18 +5,31 @@
   "main": "index.html",
   "scripts": {
     "start": "npx http-server -p 3000",
-    "dev": "npx http-server -p 3000"
+    "dev": "npx http-server -p 3000",
+    "deploy": "node aws-deploy.js",
+    "deploy:aws": "node aws-deploy.js"
   },
   "keywords": [
     "fitness",
     "trainer",
     "influencer",
     "website",
-    "responsive"
+    "responsive",
+    "aws",
+    "s3",
+    "cloudfront"
   ],
   "author": "Arvind Madavi",
   "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.1450.0",
+    "mime-types": "^2.1.35",
+    "dotenv": "^16.3.1"
+  },
   "devDependencies": {
     "http-server": "^14.1.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
   }
 } 
