@@ -45,34 +45,6 @@ Rajura, Maharashtra 442905
 
 4. **Open in browser**: `http://localhost:3000`
 
-### Vercel Deployment
-
-1. **Install Vercel CLI**:
-   ```bash
-   npm i -g vercel
-   ```
-
-2. **Deploy to Vercel**:
-   ```bash
-   vercel
-   ```
-
-3. **Follow the prompts**:
-   - Link to existing project or create new
-   - Set project name (e.g., `arvind-madavi-fitness`)
-   - Deploy
-
-4. **Your site will be live** at the provided Vercel URL
-
-### Manual Vercel Deployment
-
-1. **Push to GitHub** (if using version control)
-2. **Connect to Vercel**:
-   - Go to [vercel.com](https://vercel.com)
-   - Import your GitHub repository
-   - Vercel will automatically detect it's a static site
-   - Deploy with default settings
-
 ## 📁 Project Structure
 
 ```
@@ -83,10 +55,7 @@ arvind-madavi-fitness/
 ├── package.json        # Project configuration
 ├── README.md           # This file
 ├── IMG_8094.JPG        # Arvind's profile photo
-├── 1000172021.jpg      # Logo image
-├── 1000172015.jpg      # Additional images
-├── 1000172012.jpg      # Additional images
-└── 1000172009.jpg      # Additional images
+└── 1000172021.jpg      # Logo image
 ```
 
 ## 🛠️ Technologies Used
@@ -152,7 +121,6 @@ The website uses a modern color scheme:
 ### Images
 - Profile photo: `IMG_8094.JPG`
 - Logo: `1000172021.jpg`
-- Additional images available for gallery sections
 
 ## 📱 Mobile Optimization
 
@@ -175,20 +143,6 @@ The website uses a modern color scheme:
 - **WhatsApp**: +91-8657572180
 - **Location**: ICON Fitness Club, Rajura, Maharashtra
 - **Social Media**: See links above
-
-## 🚀 Deployment Checklist
-
-Before deploying to production:
-
-- [ ] Test all links and forms
-- [ ] Verify mobile responsiveness
-- [ ] Check image optimization
-- [ ] Test contact form functionality
-- [ ] Verify social media links
-- [ ] Test WhatsApp integration
-- [ ] Check Google Maps embed
-- [ ] Validate HTML and CSS
-- [ ] Test loading speed
 
 ## 📄 License
 
