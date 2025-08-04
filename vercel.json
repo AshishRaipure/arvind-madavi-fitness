@@ -1,6 +1,5 @@
 {
   "version": 2,
-  "name": "arvind-madavi-fitness",
   "builds": [
     {
       "src": "*.html",
@@ -40,7 +39,5 @@
         }
       ]
     }
-  ],
-  "functions": {},
-  "env": {}
+  ]
 } 
